@@ -17,6 +17,19 @@ header> img{
     height: 40px;
 }
 
+header>a{
+    text-decoration: none;
+    color: #F6F6F6;
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+header>a:hover{
+    background-color: #5c77af;
+    border-radius: 8px;
+}
+
 #iconChamada{
     color: white;
 }
