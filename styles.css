@@ -13,3 +13,128 @@ footer{
     color: #f6f6f6;
     padding: 30px;
 }
+
+.sobre {
+  
+  max-width: 1000px;
+  margin: 0 auto; 
+
+
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;      
+  
+  gap: 40px;                  
+  padding: 50px 20px;         
+}
+
+
+.sobre-texto {
+  flex: 2; 
+}
+
+
+.sobre img {
+  flex: 1;                
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.sobre-texto h1 {
+  color: #2f5aa8;         
+  font-size: 2.5rem;      
+  margin-top: 0;          
+  margin-bottom: 10px;    
+}
+
+.sobre-texto h3 {
+  color: #1a335c;         
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 20px;    
+}
+
+.sobre-texto p {
+  color: #333;            
+  line-height: 1.6;       
+  margin-bottom: 15px;
+}
+
+nav.menu {
+  background-color: #ffffff; 
+  padding: 15px 0;           
+  
+ 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  
+
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+
+
+.menu > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 30px; 
+  padding: 0;
+  margin: 0;
+}
+
+
+.menu a {
+  text-decoration: none;
+  color: #2f5aa8;         
+  font-weight: bold;
+  font-size: 1.1rem;     
+  padding: 10px 15px;    
+  border-radius: 6px;    
+  
+
+  transition: all 0.3s ease; 
+}
+
+
+.menu a:hover {
+  background-color: #e9eff9; 
+  color: #1a335c; 
+}
+
+header{
+    background-color: #2f5aa8;
+    width: calc(100vw-40px);
+    height: 50px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header> img{
+    height: 40px;
+}
+
+header>a{
+    text-decoration: none;
+    color: #F6F6F6;
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+header>a:hover{
+    background-color: #5c77af;
+    border-radius: 8px;
+}
+
+#iconChamada{
+    color: white;
+}
