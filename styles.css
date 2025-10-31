@@ -3,6 +3,48 @@
     padding: 0;
 }
 
+nav.menu {
+  background-color: #ffffff; 
+  padding: 15px 0;           
+  
+ 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  
+
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+
+
+.menu > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 30px; 
+  padding: 0;
+  margin: 0;
+}
+
+
+.menu a {
+  text-decoration: none;
+  color: #2f5aa8;         
+  font-weight: bold;
+  font-size: 1.1rem;     
+  padding: 10px 15px;    
+  border-radius: 6px;    
+  
+
+  transition: all 0.3s ease; 
+}
+
+
+.menu a:hover {
+  background-color: #e9eff9; 
+  color: #1a335c; 
+}
+
 header{
     background-color: #2f5aa8;
     width: calc(100vw-40px);
