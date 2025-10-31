@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 footer{
     display: flex;
     flex-direction: column;
@@ -67,7 +74,7 @@ footer{
 }
 
 nav.menu {
-  background-color: #ffffff; 
+  color: #ffffff; 
   padding: 15px 0;           
   
  
@@ -92,7 +99,7 @@ nav.menu {
 
 .menu a {
   text-decoration: none;
-  color: #2f5aa8;         
+  color: #FFF;         
   font-weight: bold;
   font-size: 1.1rem;     
   padding: 10px 15px;    
