@@ -42,5 +42,36 @@ nav.menu {
 
 .menu a:hover {
   background-color: #e9eff9; 
-  color: #1a335c;             
+  color: #1a335c; 
+}
+
+header{
+    background-color: #2f5aa8;
+    width: calc(100vw-40px);
+    height: 50px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header> img{
+    height: 40px;
+}
+
+header>a{
+    text-decoration: none;
+    color: #F6F6F6;
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+header>a:hover{
+    background-color: #5c77af;
+    border-radius: 8px;
+}
+
+#iconChamada{
+    color: white;
 }
